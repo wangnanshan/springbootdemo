@@ -38,6 +38,7 @@ public class MysqlTest {
         userRepository.deleteAll();
         roleRepository.deleteAll();
         departmentRepository.deleteAll();
+        
 
         Department department = new Department();
         department.setName("开发部");
